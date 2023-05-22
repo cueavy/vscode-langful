@@ -1,0 +1,25 @@
+{
+  "name": "langful",
+  "displayName": "langful",
+  "description": "langful is a python module",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lang",
+      "aliases": ["lang", "lang"],
+      "extensions": [".lang"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lang",
+      "scopeName": "source.lang",
+      "path": "./syntaxes/lang.tmLanguage.json"
+    }]
+  }
+}

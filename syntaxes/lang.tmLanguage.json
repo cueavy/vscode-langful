@@ -2,7 +2,7 @@
 	"name": "lang",
 	"patterns": [
 		{
-			"match": "(\\w+)(=| =)([^#]+)",
+			"match": "([^=]+)(=| =)([^#]+)",
 			"captures": {
 				"1": {
 					"name": "string.lang"

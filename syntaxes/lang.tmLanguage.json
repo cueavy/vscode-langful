@@ -2,7 +2,10 @@
 	"name": "lang",
 	"patterns": [
 		{
-			"match": "([^=]+)(=| =)([^#]+)",
+			"match": "#.*",
+			"name": "comment.line.lang"
+		} , {
+			"match": "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#^\\n]+|)",
 			"captures": {
 				"1": {
 					"name": "string.lang"
@@ -12,17 +15,6 @@
 				},
 				"3": {
 					"name": "string.lang"
-				}
-			}
-		},
-		{
-			"match": "(#)(.*)",
-			"captures": {
-				"1": {
-					"name": "comment.line.lang"
-				},
-				"2": {
-					"name": "comment.line.lang"
 				}
 			}
 		}

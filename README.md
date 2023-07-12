@@ -1,2 +1,9 @@
 # langful
-> todo
+
+> highlight .lang file
+
+## style
+
+```
+key = value # a test
+```

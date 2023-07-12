@@ -1,2 +1,8 @@
-node_modules
+/*
+
+!.gitignore
+!syntaxes
+!*.json
+!*.md
+
 *.vsix

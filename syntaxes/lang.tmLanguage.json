@@ -1,23 +1,23 @@
 {
-	"name": "lang",
-	"patterns": [
+	"name" : "lang" ,
+	"patterns" : [
 		{
-			"match": "#.*",
-			"name": "comment.line.lang"
+			"match" : "#.*" ,
+			"name" : "comment.lang"
 		} , {
-			"match": "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#^\\n]+|)",
-			"captures": {
-				"1": {
-					"name": "string.lang"
+			"match" : "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#^\\n]+|)" ,
+			"captures" : {
+				"1" : {
+					"name" : "variable.lang"
 				},
-				"2": {
-					"name": "keyword.lang"
+				"2" : {
+					"name" : "text.lang"
 				},
-				"3": {
-					"name": "string.lang"
+				"3" : {
+					"name" : "string.lang"
 				}
 			}
 		}
-	],
-	"scopeName": "source.lang"
+	] ,
+	"scopeName" : "source.lang"
 }

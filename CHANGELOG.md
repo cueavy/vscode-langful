@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.5
+
+- bug fix
+
 ## 0.0.4
 
 - bug fix and add features

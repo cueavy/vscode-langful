@@ -5,14 +5,14 @@
 			"match" : "#.*" ,
 			"name" : "comment.lang"
 		} , {
-			"match" : "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#^\\n]+|)" ,
+			"match" : "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#]+|)" ,
 			"captures" : {
 				"1" : {
 					"name" : "variable.lang"
-				},
+				} ,
 				"2" : {
-					"name" : "text.lang"
-				},
+					"name" : "keyword.lang"
+				} ,
 				"3" : {
 					"name" : "string.lang"
 				}

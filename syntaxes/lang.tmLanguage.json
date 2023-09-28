@@ -5,7 +5,7 @@
 			"match" : "#.*" ,
 			"name" : "comment.lang"
 		} , {
-			"match" : "([^#^=^\\s]+|)(\\s+=\\s+|\\s+=|=\\s+|=|)([^#]+|)" ,
+			"match" : "([^#=]*)(=?)([^#\\n\\r]*)" ,
 			"captures" : {
 				"1" : {
 					"name" : "variable.lang"

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.7
+
+- better syntax match
+
 ## 0.0.6
 
 - bug fix

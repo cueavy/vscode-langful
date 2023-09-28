@@ -1,7 +1,9 @@
 /*
 
+!.vscodeignore
 !.gitignore
 !syntaxes
+!LICENSE
 !*.json
 !*.md
 

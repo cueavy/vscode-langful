@@ -1,9 +1,10 @@
 # langful
 
-> highlight .lang file
+highlight .lang file
 
 ## style
 
 ```
-key = value # a test
+key = value
+# this is a code comment
 ```
